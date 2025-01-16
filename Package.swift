@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "swift-hello",
     targets: [
-        .target(
+        .executableTarget(
             name: "swift-hello"),
     ]
 )
