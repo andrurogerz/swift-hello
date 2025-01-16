@@ -6,7 +6,6 @@ A basic Swift program to test building for various platforms.
 ### CMake:
 ```cmd
 cmake -B build -S . -G Ninja ^
-    -D CMAKE_BUILD_WITH_INSTALL_RPATH=YES ^
     -D CMAKE_SYSTEM_NAME=Android ^
     -D CMAKE_ANDROID_ARCH_ABI=arm64-v8a ^
     -D CMAKE_SYSTEM_VERSION=29 ^
